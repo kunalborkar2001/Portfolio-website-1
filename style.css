@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.banner {
+    /* background: #000; */
+    height: 100vh
+}
+
+/* Navigation section  */
+
+header {
+    /* background-color: red; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    position: fixed;
+    z-index: 9999;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(85, 43, 162);
+
+}
+
+.nav-items {
+    margin-right: 2vw;
+    gap: 3vw;
+    color: rgb(85, 43, 162);
+}
+
+.nav-items h4 {
+    font-size: 1vw;
+}
+
+/* Page 1 Section  */
+
+.page1 {
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        background-image: url(images/page1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background: white; */
+}
+    
+
+
+.mainContent {
+    /* padding-top: 20vh; */
+    position: absolute;
+    top: 18vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* background-color: green; */
+}
+
+
+
+.contentBox {
+    font-size: 1vw;
+}
+.contentBox h2 {
+    font-size: 3.5vw;
+    font-style: italic;
+}
+
+.contentBox button {
+    width: 10vw;
+    margin-top: 2vh;
+}
+
+.contentBox button:hover {
+    transform: scale(1.2);
+    transition: all .3s;
+}
+
+.contentBox button a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.imgBox img {
+    height: 59vh;
+    width: 52vh;
+}
+
+.sci {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    list-style: none;
+    ;
+}
+
+.sci li {
+    margin-bottom: 2vh;
+    margin-right: 1vh;
+}
+
+/* Page 2  */
+
+.page2 {
+    background: #000;
+    min-height: 50vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    /* align-items: center;    Vertical centering */
+}
+
+
+#aboutMe{
+    position: relative;
+    padding: 0 5vw;
+    gap: 6vw;
+    top: 7vh;
+}
+
+
+.tile {
+    /* Existing styles */
+    position: relative;
+    height: 40vh;
+    width: 20vw;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+}
+.tile h3 {
+    height: 100%;
+    width: 100%;
+    background-color: green !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    /* opacity: 0; */
+}
+
+.tile h3:hover {
+    transition: all .4s;
+    background-color: transparent !important;
+}
+
+.tile img {
+    height: 100%;
+    width: 100%;
+    scale: 1.1;
+}
+/* 
+.tile:hover img {
+    transition: all .3s;
+    transform: scale(.9);
+
+}
+
+.tile h3 {
+   height: 100%;
+   width: 100%;
+   background-color: antiquewhite;
+}
+
